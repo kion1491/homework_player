@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOST</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <select name="job">
+          <option value="" selected="selected">공유종료</option>
+          <option value="">영역 선택하기</option>
+          <option value="">실행화면1</option>
+          <option value="">실행화면2</option>
+      </select>
+      <button class="streaming_btn conversionBtn">스트리밍</button>
+      <div class="record_area">
+
+        <button class="record_btn conversionBtn">녹화</button>
+        <span class="timmer">12:00:34</span>
+      </div>
+
+      <button class="seperate_btn conversionBtn"><span>분리버튼</span></button>
+      <button class="broadcast_lock_btn conversionBtn"><span>방송창 잠금</span></button>
+      <button class="minimize_btn"><span>최소화 버튼</span></button>
+      <button class="maximize_btn"><span>최대화 버튼</span></button>
+      <button class="close_btn"><span>닫기 버튼</span></button>
+
+    </div>
+    <div class="main">
+      <div class="main_cont_box">
+        <div class="row_box">
+          <div class="modify_box">
+            <button class="elec_board"><span>전자칠판 on/off</span></button>
+            <button class="curve_btn"><span>자유곡선 그리기</span></button>
+            <button class="straight_btn"><span>직선 그리기</span></button>
+            <button class="circle_btn"><span>빈 원형 그리기</span></button>
+            <button class="square_btn"><span>빈 사각형 그리기</span></button>
+            <button class="ubdo_btn"><span>이전 실행 취소</span></button>
+            <button class="delete_all_btn"><span>모두 삭제</span></button>
+            <button class="line_thick_btn"><span>선 두께 설정</span></button>
+            <button class="line_color_btn"><span>선 색상 설정</span></button>
+            <button class="cam_btn conversionBtn"><span>캠</span></button>
+            <div class="cam_div">
+              <div class="cam_div_header">
+                
+              </div>
+              <img src="/images/img_cam_dummy.png" alt="">
+            </div>
+          </div>
+          <div class="video_box">
+          </div>
+        </div>
+        <div class="setting_box">
+          <div class="volume">
+            <button class="volume_btn conversionBtn"><span>음소거 on/off 버튼</span></button>
+            <div class="volume_control">
+              <input type="range" max="100" value="50">
+            </div>
+            <img class="dial_img" src="/images/img_wave.png" alt="송출신호">
+            <button class="transmission_btn">송출설정</button>
+          </div>
+        </div>
+      </div>
+      <div class="chat_box">
+        <div class="chat_tool_box">
+          <button class="chat_restrict_btn conversionBtn"><span>채팅금지 버튼</span></button>
+          <button class="chat_target_btn"><span>전체 채팅 on/off</span></button>
+          <button class="chat_view_btn"><span>전체 채팅 보기</span></button>
+          <button class="chat_setting_btn">채팅설정</button>
+        </div>
+        <div class="pro_chat_area">
+          <p>
+            전문가 채팅 영역 입니다.
+          </p>
+          <span>채팅영역 조절 바</span>
+        </div>
+        <div class="chat_area">
+          <ul class="notice_area">
+            <li>
+              <span>NOTICE</span> 콜센터 050-6447-5858로 연락주세요. 정성껏 점검해 드리겠습니다.
+            </li>
+          </ul>
+          <div class="chat_txt_area">
+            <ul>
+              <li><span>[00:00]</span> <em>닉네임출력영역</em> : 채팅 글자 수 제한없이 줄바꿈 처리 됩니다. 채팅 글자 수 제한없이 줄바꿈 처리 됩니다. </li>
+              <li><span>[00:00]</span> <em>닉네임출력영역</em> : 채팅 글자 수 제한없이 줄바꿈 처리 됩니다. 채팅 글자 수 제한없이 줄바꿈 처리 됩니다. </li>
+              <li><span>[00:00]</span> <em>닉네임출력영역</em> : 채팅 글자 수 제한없이 줄바꿈 처리 됩니다. 채팅 글자 수 제한없이 줄바꿈 처리 됩니다. </li>
+              <li><span>[00:00]</span> <em>닉네임출력영역</em> : 채팅 글자 수 제한없이 줄바꿈 처리 됩니다. 채팅 글자 수 제한없이 줄바꿈 처리 됩니다. </li>
+              <li><span>[00:00]</span> <em>닉네임출력영역</em> : 채팅 글자 수 제한없이 줄바꿈 처리 됩니다. 채팅 글자 수 제한없이 줄바꿈 처리 됩니다. </li>
+            </ul>
+          </div>
+          <div class="chat_input_area">
+            <input type="text" class="chat_input">
+            <button class="input_enter_btn"></button>
+          </div>
+        </div>
+        <div class="user_list_area">
+          <div class="user_search">
+            <div class="user_num on">
+              접속자 <span>00,000명</span>
+              <button class="user_search_btn"><span>유저 검색하기 버튼</span></button>
+              <button class="user_list_toggle_btn conversionBtn on"><span>유저 리스트 토글 버튼</span></button>
+            </div>
+            <div class="user_search_input_box">
+              <input type="text" class="user_search_input" placeholder="필명으로 회원 검색">
+              <button class="user_search_exit_btn"><span>유저 검색기능 끄기 버튼</span></button>
+            </div>
+          </div>
+          <div class="user_list">
+            <ul>
+              <li class="host_nickname">
+                <span>방장닉네임1</span>
+              </li>
+              <li class="vice_host_nickname">
+                <span>부방장닉네임2</span>
+              </li>
+              <li class="member_nickname_mo">
+                <span>회원모바일</span>
+              </li>
+             
+              <li class="member_nickname_pc">
+                <span>회원PC</span>
+              </li>
+              
+              <li class="guest_nickname_mo">
+                <span>게스트모바일</span>
+              </li>
+              <li class="guest_nickname_pc">
+                <span>게스트PC</span>
+              </li>
+              <li class="guest_nickname_pc no_chat_mo">
+                <span>게스트모바일(채팅금지)</span>
+              </li>
+              <li class="guest_nickname_pc no_chat_pc">
+                <span>게스트PC(채팅금지)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<script src="index.js"></script>
