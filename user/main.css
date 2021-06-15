@@ -51,7 +51,7 @@
   position: absolute;
   width: 6px;
   height: 14px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url("../images/bg_comm_set.png") no-repeat;
   background-size: 400px;
   background-position: 0px 0px;
   right: 5px;
@@ -76,7 +76,7 @@
   position: absolute;
   width: 13px;
   height: 13px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -20px 0px;
   left: -18px;
@@ -108,7 +108,7 @@
   position: absolute;
   width: 11px;
   height: 11px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -201px -291px;
   top: 14px;
@@ -126,7 +126,7 @@
   position: absolute;
   width: 13px;
   height: 13px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -40px 0px;
   left: -18px;
@@ -146,7 +146,7 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: 0px -110px;
   left: 0px;
@@ -171,7 +171,7 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -20px -110px;
   left: 0px;
@@ -194,7 +194,7 @@
 .video_box button.play_btn {
   width: 70px;
   height: 70px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -1px -171px;
   position: absolute;
@@ -248,7 +248,7 @@
   position: absolute;
   width: 19px;
   height: 20px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -198px -107px;
 }
@@ -317,7 +317,7 @@
 .main .tool_box .time_control .rewind_btn {
   width: 21px;
   height: 17px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -71px -30px;
 }
@@ -325,7 +325,7 @@
 .main .tool_box .time_control .pause_btn {
   width: 10px;
   height: 16px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -101px -30px;
   margin-left: 23px;
@@ -334,7 +334,7 @@
 .main .tool_box .time_control .fast_forward_btn {
   width: 21px;
   height: 17px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -121px -30px;
   margin-left: 24px;
@@ -358,7 +358,7 @@
 .main .tool_box .picture_qual .picture_qual_btn:before {
   content: '';
   position: absolute;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -60px 0px;
   width: 13px;
@@ -420,7 +420,7 @@
   appearance: none;
   width: 14px;
   height: 14px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -140px -110px;
   cursor: pointer;
@@ -444,7 +444,7 @@
   position: absolute;
   width: 20px;
   height: 13px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -50px -112px;
   right: 90px;
@@ -460,7 +460,7 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -80px -110px;
   right: 58px;
@@ -475,7 +475,7 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -110px -110px;
   right: 23px;
@@ -525,7 +525,7 @@
   position: absolute;
   width: 23px;
   height: 12px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -230px -110px;
   left: 32px;
@@ -542,7 +542,7 @@
   height: 17px;
   top: 13px;
   right: 155px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: 0px -30px;
 }
@@ -564,7 +564,7 @@
   height: 17px;
   top: 13px;
   right: 121px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -31px -30px;
 }
@@ -592,7 +592,7 @@
   position: absolute;
   width: 13px;
   height: 11px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -60px 0px;
   left: -14px;
@@ -648,7 +648,7 @@
   position: absolute;
   width: 10px;
   height: 4px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -90px 0px;
   top: 3px;
@@ -695,7 +695,7 @@
   position: absolute;
   width: 18px;
   height: 15px;
-  background: url(/images/bg_comm_set.png) no-repeat;
+  background: url(../images/bg_comm_set.png) no-repeat;
   background-size: 400px;
   background-position: -170px -110px;
   top: -48px;
